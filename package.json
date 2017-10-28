@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "test.js",
+  "author": "Joe Ireland",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "eslint": "eslint src"
+  },
+  "dependencies": {
+    "bunyan": "^2.0.2",
+    "bunyan-logstash": "^0.3.4",
+    "bunyan-logstash-tcp": "^1.0.0",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "http-status-codes": "^1.2.0",
+    "jsonwebtoken": "^8.0.0",
+    "nested-property": "^0.0.7",
+    "node-statsd": "^0.1.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1"
+  }
+}
